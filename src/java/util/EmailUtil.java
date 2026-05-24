@@ -19,16 +19,15 @@ public class EmailUtil {
         double salary,String username,String generatedPassword) {
 
         final String fromEmail =
-                "musiaddy@gmail.com";
+                "anybody@example.com";
 
         final String password =
-                "ighhehidrsacctgl";
+                "whoknowswhatitis";
 
         Properties props = new Properties();
 
         props.put("mail.smtp.host",
                 "smtp.gmail.com");
-
         props.put("mail.smtp.port",
                 "587");
 
